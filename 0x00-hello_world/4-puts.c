@@ -5,15 +5,11 @@
 *
 * Description: ' prints a string  using puts()'
 *
-* Return: Always 0 (Success)
+* Return: Always 0
 */
 int main(void)
 {
-	char str_a[60];
-
-	strcpy(str_a, "Programming is like building a multilingual puzzle");
-
-	puts(str_a);
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
 
