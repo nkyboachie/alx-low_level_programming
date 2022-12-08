@@ -9,11 +9,11 @@
 */
 int main(void)
 {
-	char str[60];
+	char str_a[60];
 
-	strpro(str, "Programming is like building a multilingual puzzle");
+	strcpy(str_a, "Programming is like building a multilingual puzzle");
 
-	puts(str);
+	puts(str_a);
 return (0);
 }
 
