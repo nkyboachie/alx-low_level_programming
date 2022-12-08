@@ -13,7 +13,7 @@ int main(void)
 
 	strpro(str, "Programming is like building a multilingual puzzle");
 
-	puts(strpro);
+	puts(str);
 return (0);
 }
 
