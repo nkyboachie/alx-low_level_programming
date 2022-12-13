@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times table -  prints the nine times table.
+ * times_table -  prints the nine times table.
  *
  *
  * Return: void.
@@ -28,9 +28,8 @@ else
 {
 _putchar((ij / 10) + '0');
 _putchar((ij % 10) + '0');
-}
-}
-}
-return;
 
+}
+_putchar('\n');
+}
 }
