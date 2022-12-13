@@ -9,12 +9,12 @@
 int main() {
   int a = 1;
   int b = 2;
-
+	int i;
 
   printf("%d, %d", a, b);
 
 
-  for (int i = 0; i < 98; i++) {
+  for ( i = 0; i < 98; i++) {
     int c = a + b;
     printf(", %d", c);
     a = b;
