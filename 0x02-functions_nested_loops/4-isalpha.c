@@ -1,8 +1,6 @@
-#include <stdio.h>
+#include <main.h>
 /**
 * main - checks alphabet characters
-*
-* Return: Always (Success)
 */
 int _isalpha(int c)
 {

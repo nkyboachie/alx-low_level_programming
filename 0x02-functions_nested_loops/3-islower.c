@@ -1,8 +1,6 @@
-#include <stdio.h>
+#include <main.h>
 /**
 * main - checks lower case characters
-*
-* Return: Always (Success)
 */
 int _islower(int c)
 {
