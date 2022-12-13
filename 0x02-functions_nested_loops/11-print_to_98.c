@@ -13,12 +13,15 @@ for (i = n; i <= 98; i++)
 {
 _putchar((i / 10) + '0');
 _putchar((i % 10) + '0');
+putchar(',');
+putchar(' ');
 if (i != 98)
 {
 putchar(',');
 putchar(' ');
 }
 }
+
 
 putchar('\n');
 }
