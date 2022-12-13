@@ -15,8 +15,8 @@ int i;
 
 for (i = n; i < 98; i++)
 {
-_putchar((i / 10) + '0');
-_putchar((i % 10) + '0');
+_putchar((n / 10) + '0');
+_putchar((n % 10) + '0');
 putchar('\n');
 }
 }
