@@ -1,29 +1,27 @@
 #include <stdio.h>
 
 /**
- * main - Prints 1st 50 Fibonacci numbers, starting with 1 and 2,
+ * main - Prints sum of Fibonacci numbers terms less than 4000000
  *        separated by a comma followed by a space.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-int counter = 0;
-unsigned long fibon1 = 0, fibon2 = 1, sum, sum1 = 0;
+unsigned long fibon1 = 0, fibon2 = 1, sum;
+float sum1;
 
-while (sum < 4000000)
+while (1)
 {
 sum = fibon1 + fibon2;
+if (sum > 4000000)
+break;
+if ((sum % 2) == 0)
 sum1 += sum;
-
 
 fibon1 = fibon2;
 fibon2 = sum;
-if (counter <= 4000000)
-continue;
-else
-counter++;
 }
-printf("%lu", sum1);
+printf("%.0f\n", sum1);
 return (0);
 }
