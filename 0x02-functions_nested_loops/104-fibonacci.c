@@ -10,10 +10,10 @@ int main() {
   int a = 1;
   int b = 2;
 
-  // Print the first two numbers
+
   printf("%d, %d", a, b);
 
-  // Compute and print the remaining numbers
+
   for (int i = 0; i < 98; i++) {
     int c = a + b;
     printf(", %d", c);
@@ -21,7 +21,7 @@ int main() {
     b = c;
   }
 
-  // Add a new line at the end
+
   printf("\n");
 
   return 0;
