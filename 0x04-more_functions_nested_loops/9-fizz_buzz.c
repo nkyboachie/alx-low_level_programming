@@ -9,24 +9,25 @@
  */
 int main(void)
 {
-int  n;
-char fb[] = "FizzBuzz";
+int i;
 char f[] = "Fizz";
 char b[] = "Buzz";
+char fb[] = "FizzBuzz";
 
-for (n = 1; n <= 100; n++)
+for (i = 1; i <= 100; i++)
 {
-if (n == 100)
-printf("%s ", b);
-else if (n % 3 == 0)
+if (i == 100)
 printf("%s ", f);
-else if (n % 5 == 0)
+else if (i % 5 == 0)
 printf("%s ", b);
-else if ((n % 3 == 0) && (n % 5 == 0))
+else if (i % 3 == 0)
+printf("%s ", b);
+else if ((i % 3 == 0) && (i % 5 == 0))
 printf("%s ", fb);
 else
-printf("%d ", n);
+printf("%d ", i);
 }
 printf("\n");
 return (0);
 }
+
