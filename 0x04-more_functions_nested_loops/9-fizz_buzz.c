@@ -17,21 +17,13 @@ char b[] = "Buzz";
 for (n = 1; n <= 100; n++)
 {
 if (n == 100)
-{
 printf("%s ", b);
-}
 else if (n % 3 == 0)
-{
 printf("%s ", f);
-}
 else if (n % 5 == 0)
-{
 printf("%s ", b);
-}
-else if (n % 3 == 0 && n % 5 == 0)
-{
+else if ((n % 3 == 0) && (n % 5 == 0))
 printf("%s ", fb);
-}
 else
 printf("%d ", n);
 }
